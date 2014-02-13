@@ -1,0 +1,14 @@
+doctype html
+html
+  head
+    title Wiki Index
+    link rel="stylesheet" href="/style.css"
+    link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic|Open+Sans:700,400"
+
+  body
+    h1 Wiki Index
+  
+    ul
+  	- files.each do |e|
+      li
+        a href="/wiki/#{e}" =e

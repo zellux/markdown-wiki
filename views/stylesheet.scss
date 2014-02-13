@@ -1,0 +1,20 @@
+@import 'ghost.scss';
+
+body {
+	padding: 1em;
+	margin: auto;
+	max-width: 42em;
+}
+
+section.nav {
+  text-align: center;
+  margin-bottom: 5em;
+  a {
+    padding: 0 1em;
+    color: #ccc;
+  }
+}
+
+a:visitd {
+  color: #4a4a4a;
+}
