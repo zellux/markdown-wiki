@@ -7,8 +7,14 @@ html
 
   body
     h1 Wiki Index
-  
+
     ul
-  	- files.each do |e|
+    - files[0].each do |e|
       li
         a href="/wiki/#{e}" =e
+
+    - files[1].each_pair do |dir, files|
+      ul.level2 =dir
+      - files.each do |file|
+        li
+          a href="/wiki/#{dir}::#{file}" = file

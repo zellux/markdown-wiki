@@ -5,3 +5,5 @@ gem 'redcarpet'
 gem 'slim'
 gem 'sass'
 gem 'sinatra', '~> 1.4.4'
+gem 'rubytree'
+gem 'sinatra-contrib', :group => :development
